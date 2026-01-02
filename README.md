@@ -51,17 +51,17 @@ Detect anomalies in time series data using **LSTM Autoencoders**. The model lear
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    LSTM AUTOENCODER                         │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   Input ──► [LSTM Encoder] ──► Latent Space ──► [LSTM Decoder] ──► Output
-│   (seq)      (compress)        (features)       (reconstruct)     (seq)
-│                                                             │
-│   Anomaly Score = MSE(Input, Output)                       │
-│   If score > threshold → ANOMALY                           │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────┐
+│                    LSTM AUTOENCODER                                        │
+├────────────────────────────────────────────────────────────────────────────| 
+│                                                                            │
+│   Input ──► [LSTM Encoder] ──► Latent Space ──► [LSTM Decoder] ──► Output  |
+│   (seq)      (compress)        (features)       (reconstruct)     (seq)    |
+│                                                                            │
+│   Anomaly Score = MSE(Input, Output)                                       │
+│   If score > threshold → ANOMALY                                           │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Model Variants
@@ -278,18 +278,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Anomaly Detection with LSTM Autoencoders](https://arxiv.org/abs/1607.00148)
 - [PyTorch Documentation](https://pytorch.org/docs/)
 
-## 📬 Contact
-
-**Merve** - [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN)
-
-Project Link: [https://github.com/yourusername/LSTMautoencoder-anomalydetection](https://github.com/yourusername/LSTMautoencoder-anomalydetection)
-
 ---
 
 <p align="center">
-  Made with ❤️ by Merve
-</p>
-
-<p align="center">
-  ⭐ Star this repo if you found it useful!
+  Built by <a href="https://github.com/mervesf">Merve</a> · ⭐ Star if you found this useful!
 </p>
