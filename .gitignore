@@ -1,0 +1,38 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/*.csv
+models/*.pt
+output/*.png
+!output/.gitkeep
+!models/.gitkeep
+!data/.gitkeep
+!assets/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch
+*.pth
